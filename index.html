@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="">
+        <header>
+            <div class="bubble-text text">Caio Furtado</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#socialfooter">Social</a></li>
+            </ul>
+            <div id="switch" onclick="mode()">
+                <button></button>
+                <span>
+                    <img id="moon" src="./assets/moon.svg" alt="" />
+                    <img id="sun" src="./assets/sun.svg" alt="" />
+                </span>
+            </div>
+        </header>
+        <main class="container">
+            <section class="home hidden" id="home">
+                <div class="txt-animado"><span></span></div>
+                <div class="sobre">
+                    <div class="teste">
+                        <p class="hidden">
+                            Formado na ETE Cicero Dias no curso de programação
+                            de jogos digitais e atualmente cursando
+                            <strong>ADS</strong> no
+                            <strong>Cesar school</strong>. Eu sou muito
+                            comunicativo e curioso, pois sempre busco o melhor a
+                            cada dia!. Portanto, desde o primeiro contato com
+                            programação, realizei diversos projetos direcionados
+                            ao estudo e pratica ao mercado. Além de que possuo
+                            conhecimento de linguagens como
+                            <strong>HTML</strong>, <strong>Css</strong> e
+                            <strong>JavaScript</strong>, permaneço em constante
+                            evolução, buscando certificados e cursos relevantes
+                            para o meu repertório!
+                        </p>
+                        <div class="redes">
+                            <ul>
+                                <li class="item card1 hidden">
+                                    <a
+                                        href="https://www.instagram.com/cfurtadocc/"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-instagram icon"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="item card2 hidden">
+                                    <a
+                                        href="https://www.linkedin.com/in/caio-furtado-de-miranda-carvalho-b2b87a298/"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-linkedin icon"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="item card3 hidden">
+                                    <a
+                                        href="https://github.com/CaioFurtadoo"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-github icon"></i>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a
+                                        href="https://w.app/CaioFurtado"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-whatsapp icon"
+                                        ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img
+                        class="hidden"
+                        src="./assets/Captura de tela 2024-03-22 125720.png"
+                        alt="imagem minha"
+                    />
+                </div>
+            </section>
+            <section class="Projects hidden" id="projects">
+                <h1>Projects</h1>
+                <div class="wrapper">
+                    <div class="container2">
+                        <input type="radio" name="slide" id="c1" checked />
+                        <label for="c1" class="projetos hidden" id="card1">
+                            <div class="row">
+                                <div class="icon">1</div>
+                                <div class="description">
+                                    <h4>Theme Switcher</h4>
+                                    <div class="textoP">
+                                        <p>
+                                            Um projeto de estudo Js com enfoque
+                                            em animações do slide in e slide out
+                                            no switch theme!
+                                        </p>
+                                        <a
+                                            href="https://github.com/CaioFurtadoo/theme-switcher"
+                                            target="_blank"
+                                        >
+                                            <div class="botaoP">
+                                                <p>Github</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c2" />
+                        <label for="c2" class="projetos hidden" id="card2">
+                            <div class="row">
+                                <div class="icon">2</div>
+                                <div class="description">
+                                    <h4>Timer - CountDown</h4>
+                                    <div class="textoP">
+                                        <p>
+                                            Projeto realizado com o intuito de
+                                            estudo de JS, principalmente pelo
+                                            set.interval!
+                                        </p>
+                                        <a
+                                            href="https://github.com/CaioFurtadoo/Timer-CountDown"
+                                            target="_blank"
+                                        >
+                                            <div class="botaoP">
+                                                <p>Github</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c3" />
+                        <label for="c3" class="projetos hidden" id="card3">
+                            <div class="row">
+                                <div class="icon">3</div>
+                                <div class="description">
+                                    <h4>Pricing table</h4>
+                                    <div class="textoP">
+                                        <p>
+                                            Realizei uma tabela de preço
+                                            utilizando somente css e html!
+                                        </p>
+                                        <a
+                                            href="https://github.com/CaioFurtadoo/Pricing-table"
+                                            target="_blank"
+                                        >
+                                            <div class="botaoP">
+                                                <p>Github</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" />
+                        <label for="c4" class="projetos hidden" id="card4">
+                            <div class="row">
+                                <div class="icon">4</div>
+                                <div class="description">
+                                    <h4>Numero Secreto</h4>
+                                    <div class="textoP">
+                                        <p>
+                                            seja bem vindo ao jogo do numero
+                                            secreto! feito em hmtl, css e js.
+                                            Tente a sorte!
+                                        </p>
+                                        <a
+                                            href="https://github.com/CaioFurtadoo/Numero-Secreto"
+                                            target="_blank"
+                                        >
+                                            <div class="botaoP">
+                                                <p>Github</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section class="experience hidden" id="experience">
+                <h1>Experience</h1>
+                <div class="tecnologias hidden">
+                    <img
+                        class="hidden"
+                        src="./assets/tec/icons8-html-5-ios-17-filled/icons8-html-5-150.png"
+                        alt="html icon"
+                    />
+                    <img
+                        class="hidden"
+                        src="./assets/tec/icons8-css3-ios-17-filled/icons8-css3-150.png"
+                        alt="css icon"
+                    />
+                    <img
+                        class="hidden"
+                        src="./assets/tec/icons8-javascript-logo-ios-17-filled/icons8-javascript-logo-150.png"
+                        alt="javascript icon"
+                    />
+                </div>
+                <div class="journey">
+                    <div class="conjunto">
+                        <p class="textoJ hidden">
+                            Na Escola Tecnica Estadual
+                            <strong>Cicero dias</strong> eu tive a oportunidade
+                            de fazer o curso de
+                            <strong>programação de jogos digitais</strong> no
+                            qual aprendi completamente a linguagem
+                            <strong>c#</strong> e o programa unity! Ademais,
+                            aprendi um pouco de
+                            <strong>html, css, js e React</strong>
+                            definitivamente um otimo curso!
+                        </p>
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/WhatsApp Image 2024-04-11 at 12.51.58 (1).jpeg"
+                                alt=""
+                            />
+                            <p>Cicero Dias</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                    <div class="conjunto">
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/Captura de tela 2024-03-28 141835.png"
+                                alt=""
+                            />
+                            <p>Certificados</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                        <p class="textoJ hidden">
+                            Em relação a <strong>certificados</strong> e
+                            <strong>cursos</strong>
+                            eu possuo diversos, desde
+                            <strong>python</strong> ate dominar
+                            <strong>html, css e js!</strong>
+                            principalmente na
+                            <strong>alura e rocketseat</strong>. Caso queira ver
+                            o credenciamento, porfavor averiguar o linkedin!
+                        </p>
+                    </div>
+                    <div class="conjunto">
+                        <p class="textoJ hidden">
+                            E finalmente a <strong>Cesar School</strong> uma das
+                            melhores, senão a melhor faculdade de tecnologia do
+                            país, além de ser patrocinada pelo porto no programa
+                            <strong>Embarque digital</strong>. Compreende-se em
+                            sua totalidade um curso completo
+                            <strong
+                                >ADS - Analise e Desenvolvimento de
+                                Sistemas!</strong
+                            >
+                            durante 2 anos e meio de muito estudos e projetos!
+                        </p>
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/WhatsApp Image 2024-04-11 at 12.51.58.jpeg"
+                                alt=""
+                            />
+                            <p>Cesar School</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section id="socialfooter">
+                <h1>Social</h1>
+                <div class="textoSocial">
+                    <p>
+                        <strong>Email: </strong><br />
+                        caio.f.m.carvalho@gmail.com
+                    </p>
+                    <p>
+                        <strong>Number: </strong><br />
+                        +55 81989317911
+                    </p>
+                    <p>
+                        <strong>Instagram: </strong><br />
+                        @cfurtadocc
+                    </p>
+                    <p>
+                        <strong>Github </strong><br />
+                        @CaioFurtadoo
+                    </p>
+                    <p><strong>Linkedin: </strong><br />@Caio Furtado</p>
+                </div>
+            </section>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
